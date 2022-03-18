@@ -193,16 +193,13 @@ void loop()
 }
     
 
-
-/* --------------------------------------------------------------------------------------------*/
-
 bool postdata(){
     sendATcommand("AT+HTTPINIT", "okay", 1000);
     sendATcommand("AT+HTTPPARA=\"URL\",\"https://www.fornaxtechnology.com/dht.php?latitude=" + String(Lat,6) +"&longtitude=" + String(Log,6)+"\"\r", "OK", 1000);
     sendATcommand("AT+HTTPACTION=2", "OKAY", 1000);  
 }
 
-/* --------------------------------------------------------------------------------------------*/
+
 
 uint8_t sendATcommand(String ATcommand, const char* expected_answer, unsigned int timeout)
 {
