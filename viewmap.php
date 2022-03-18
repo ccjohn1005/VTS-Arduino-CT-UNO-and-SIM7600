@@ -88,7 +88,7 @@ if (isset($_POST['but_logout'])) {
             <!-- Custom scripts for all pages-->
             <script src="js/sb-admin-2.min.js"></script>
             <!-- Async script executes immediately and must be after any DOM elements used in callback. -->
-            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBzu-pWRSdYmoUGnxPx88YoWy-hG7bsn0&callback=initMap&libraries=&v=weekly" async></script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap&libraries=&v=weekly" async></script>
 
 
 </body>
