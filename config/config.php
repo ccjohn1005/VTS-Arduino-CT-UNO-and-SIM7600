@@ -2,10 +2,10 @@
 date_default_timezone_set("Asia/Kuala_Lumpur");   
    
 /* Database credentials. */
-define('DB_SERVER', 'localhost');
-define('DB_USERNAME', 'root');
-define('DB_PASSWORD', 'Tsst123!');
-define('DB_NAME', 'VTS_DB');
+define('DB_SERVER', '');
+define('DB_USERNAME', '');
+define('DB_PASSWORD', '');
+define('DB_NAME', '');
  
 /* Attempt to connect to MySQL database */
 $link = mysqli_connect(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
