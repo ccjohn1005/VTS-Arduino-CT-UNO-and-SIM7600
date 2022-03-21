@@ -150,7 +150,7 @@ void loop()
 
         delay(100);
 
-        SMSSendString = "VTS:\nhttps://www.fornaxtechnology.com/viewmap.php?latitude=" + String(Lat,7) +"&longtitude=" + String(Log,6)"";
+        SMSSendString = "VTS:\nhttps://www.fornaxtechnology.com/viewmap.php?vehicleno=ABC1234&latitude=" + String(Lat,7) +"&longtitude=" + String(Log,6)"";
         Serial.println(SMSSendString);
 
         SMSSendString.toCharArray(SMSSendBuffer, 100);
